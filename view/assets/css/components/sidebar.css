@@ -1,0 +1,52 @@
+.sidebar {
+	display:table-cell;
+	width:360px;
+	padding:30px;
+	background:#101114;
+	color:#5f616a;
+	vertical-align:top
+}
+.sidebar .sidebar-ticket-counter .ticket-counter-empty {
+	padding:20px;
+	text-align:center
+}
+.sidebar .sidebar-ticket-counter .ticket-counter-list {
+	display:block;
+	list-style:none;
+	padding:0
+}
+.sidebar .sidebar-ticket-counter .ticket-counter-list li {
+	display:block;
+	margin:0 0 20px
+}
+.sidebar .sidebar-ticket-counter .ticket-counter-list li a {
+	position:relative;
+	display:block;
+	line-height:20px;
+	padding-left:60px;
+	color:#6b6e77
+}
+.sidebar .sidebar-ticket-counter .ticket-counter-list li a .ticket-counter-avatar {
+	position:absolute;
+	left:0;
+	top:0;
+	width:40px;
+	height:40px;
+	opacity:0.4
+}
+.sidebar .sidebar-ticket-counter .ticket-counter-list li a .ticket-counter-user {
+	display:block;
+	opacity:0.7
+}
+.sidebar .sidebar-ticket-counter .ticket-counter-list li a .ticket-counter-count {
+	display:block;
+	font-size:12px
+}
+.sidebar .sidebar-ticket-counter .ticket-counter-list li a:hover .ticket-counter-avatar,
+.sidebar .sidebar-ticket-counter .ticket-counter-list li a:active .ticket-counter-avatar {
+	opacity:0.6
+}
+.sidebar .sidebar-ticket-counter .ticket-counter-list li a:hover .ticket-counter-user,
+.sidebar .sidebar-ticket-counter .ticket-counter-list li a:active .ticket-counter-user {
+	opacity:1
+}

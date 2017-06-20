@@ -1,0 +1,184 @@
+.block{
+	display:block;
+}
+.inline-block{
+	display:inline-block;
+}
+.center{
+	text-align:center;
+}
+.right{
+	text-align:right;
+}
+.left{
+	text-align:left;
+}
+.bold{
+	font-weight:bold;
+}
+.underline{
+	font-decoration:underline;
+}
+.hide,.preload{
+	display:none;
+}
+ul.no-list-style{
+	list-style:none;
+	padding-left:0;
+}
+ul.inline-list>li{
+	display:inline;
+}
+.no-margin{
+	margin:0;
+}
+.top-margin{
+	margin-top:24px;
+}
+.right-margin{
+	margin-right:24px;
+}
+.bottom-margin{
+	margin-bottom:24px;
+}
+.left-margin{
+	margin-left:24px;
+}
+.no-top-margin{
+	margin-top:0;
+}
+.no-right-margin{
+	margin-right:0;
+}
+.no-bottom-margin{
+	margin-bottom:0;
+}
+.no-left-margin{
+	margin-left:0;
+}
+.top-small-margin{
+	margin-top:12px;
+}
+.right-small-margin{
+	margin-right:12px;
+}
+.bottom-small-margin{
+	margin-bottom:12px;
+}
+.left-small-margin{
+	margin-left:12px;
+}
+.top-large-margin{
+	margin-top:36px;
+}
+.right-large-margin{
+	margin-right:36px;
+}
+.bottom-large-margin{
+	margin-bottom:36px;
+}
+.left-large-margin{
+	margin-left:36px;
+}
+.no-padding{
+	padding:0;
+}
+.top-padding{
+	padding-top:24px;
+}
+.right-padding{
+	padding-right:24px;
+}
+.bottom-padding{
+	padding-bottom:24px;
+}
+.left-padding{
+	padding-left:24px;
+}
+.no-top-padding{
+	padding-top:0;
+}
+.no-right-padding{
+	padding-right:0;
+}
+.no-bottom-padding{
+	padding-bottom:0;
+}
+.no-left-padding{
+	padding-left:0;
+}
+.top-small-padding{
+	padding-top:12px;
+}
+.right-small-padding{
+	padding-right:12px;
+}
+.bottom-small-padding{
+	padding-bottom:12px;
+}
+.left-small-padding{
+	padding-left:12px;
+}
+.top-large-padding{
+	padding-top:36px;
+}
+.right-large-padding{
+	padding-right:36px;
+}
+.bottom-large-padding{
+	padding-bottom:36px;
+}
+.left-large-padding{
+	padding-left:36px;
+}
+.underline{
+	text-decoration:underline;
+}
+.strikethrough{
+	text-decoration:line-through;
+}
+.spoiler{
+	color:#000;
+	background-color:#000;
+}
+.spoiler:hover{
+	color:#fff;
+	background-color:#000;
+}
+abbr,
+.hint{
+	border-bottom-width:1px;
+	border-bottom-style:dotted;
+	border-bottom-color:inherit;
+}
+abbr:hover,
+.hint:hover{
+	cursor:help;
+}
+.clearfix:before,
+.clearfix:after{
+	display:table;
+	content:"";
+	line-height:0;
+}
+.clearfix:after{
+	clear:both;
+}
+.quarter-height{
+	height:25%;
+}
+.half-height{
+	height:50%;
+}
+.full-height{
+	height:100%;
+}
+.quarter-width{
+	width:25%;
+}
+.half-width{
+	width:50%;
+}
+.full-width{
+	width:100%;
+}

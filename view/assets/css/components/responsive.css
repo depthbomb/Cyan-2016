@@ -1,0 +1,155 @@
+@media (max-width: 372px){
+	footer.mobile-footer ul>li:after{
+		margin:0;
+		content:"";
+	}
+}
+@media (max-width: 767px){
+
+	.mobile-block{
+		width:100%;
+		display:block;
+	}
+
+	.server-bar{
+		line-height:50px;
+	}
+	.server-bar #player-count{
+		text-align:center;
+	}
+	.server-bar #connect-button{
+		display:none;
+	}
+	.server-bar #connect-button .btn{
+		padding:3px;
+		height:30px;
+	}
+
+	.content-top:not(.content-mobile),
+	.content-bottom:not(.content-mobile){
+		display:none;
+	}
+	.content-top.content-mobile,
+	.content-bottom.content-mobile{
+		display:block;
+	}
+
+	footer.footer{
+		display:none;
+	}
+	footer.mobile-footer{
+		display:block;
+	}
+}
+
+@media (min-width:992px) {
+	body.navbar-expanded {
+		padding-left:320px;
+		margin-right:-240px
+	}
+	body.navbar-expanded .navbar .navbar-header {
+		width:320px
+	}
+	body.navbar-expanded .navbar .navbar-header .navbar-brand .navbar-brand-icon {
+		margin-right:18px
+	}
+	body.navbar-expanded .navbar .navbar-header .navbar-brand .navbar-brand-label {
+		opacity:1
+	}
+	body.navbar-expanded .navbar .navbar-right {
+		margin-right:-270px
+	}
+	body.navbar-expanded .navbar-pages {
+		width:320px
+	}
+	body.navbar-expanded .navbar-pages .navbar-nav li a .navbar-icon {
+		margin-right:24px
+	}
+	body.navbar-expanded .navbar-pages .navbar-nav li a .navbar-label {
+		opacity:1
+	}
+	body.navbar-expanded footer {
+		margin-left:-320px !important;
+		margin-right:240px !important
+	}
+}
+@media (max-width:991px) {
+	.navbar {
+		display:none
+	}
+	.navbar-mobile {
+		display:block
+	}
+	.navbar-secondary {
+		display:none;
+		position:static;
+		top:auto;
+		left:auto;
+		bottom:auto;
+		width:auto;
+		transition:none;
+		border-bottom:1px solid #222328
+	}
+	.navbar-secondary .navbar-nav {
+		margin:0 -15px
+	}
+	.navbar-secondary .navbar-nav li a {
+		width:auto;
+		margin:0
+	}
+	.navbar-secondary .navbar-nav li a .navbar-label {
+		opacity:1
+	}
+	.navbar-secondary.navbar-pages,.navbar-secondary.navbar-user {
+		display:none
+	}
+	.navbar-secondary.navbar-pages.navbar-mobile-show,
+	.navbar-secondary.navbar-user.navbar-mobile-show {
+		display:block
+	}
+}
+@media only screen and (-moz-min-device-pixel-ratio:1.5),only screen and (-o-min-device-pixel-ratio:3/2),only screen and (-webkit-min-device-pixel-ratio:1.5),only screen and (min-device-pixel-ratio:1.5) {
+	.navbar .navbar-header .navbar-brand .navbar-brand-icon {
+		background-image:url('/assets/img/cyan_logo_icon.png') no-repeat;
+		background-size:32px
+	}
+}
+@media (max-width:991px) {
+	body{
+		padding:0;
+	}
+	main .main-padded {
+		padding:0;
+	}
+}
+@media (min-width:1024px) {
+	.modal-dialog {
+		width:760px
+	}
+}
+@media (max-width:991px) {
+	.sidebar {
+		display:block;
+		width:100%
+	}
+	.sidebar .widget {
+		display:block
+	}
+	.sidebar .widget.widget-sidebar {
+		width:auto;
+		margin:0 auto 40px
+	}
+	.sidebar .widget.widget-sidebar:last-child {
+		margin:0 auto
+	}
+	.sidebar .widget.widget-aphex {
+		display:table;
+		width:auto;
+		max-width:300px;
+		margin:0 auto 40px;
+		overflow:hidden
+	}
+	.sidebar .widget:last-child {
+		margin:0 auto
+	}
+}

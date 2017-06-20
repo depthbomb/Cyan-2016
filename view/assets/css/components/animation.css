@@ -1,0 +1,103 @@
+@-webkit-keyframes inbox-notification{
+	0%{
+		-webkit-box-shadow:inset 0px 0px 0px 0px rgba(0,0,0,0);
+		-moz-box-shadow:inset 0px 0px 0px 0px rgba(0,0,0,0);
+		box-shadow:inset 0px 0px 0px 0px rgba(0,0,0,0);
+	}
+	50%{
+		-webkit-box-shadow:inset 0px -4px 0px 0px #f6b70e;
+		-moz-box-shadow:inset 0px -4px 0px 0px #f6b70e;
+		box-shadow:inset 0px -4px 0px 0px #f6b70e;
+	}
+	100%{
+		-webkit-box-shadow:inset 0px 0px 0px 0px rgba(0,0,0,0);
+		-moz-box-shadow:inset 0px 0px 0px 0px rgba(0,0,0,0);
+		box-shadow:inset 0px 0px 0px 0px rgba(0,0,0,0);
+	}
+}
+@-moz-keyframes inbox-notification{
+	0%{
+		-webkit-box-shadow:inset 0px 0px 0px 0px rgba(0,0,0,0);
+		-moz-box-shadow:inset 0px 0px 0px 0px rgba(0,0,0,0);
+		box-shadow:inset 0px 0px 0px 0px rgba(0,0,0,0);
+	}
+	50%{
+		-webkit-box-shadow:inset 0px -4px 0px 0px #f6b70e;
+		-moz-box-shadow:inset 0px -4px 0px 0px #f6b70e;
+		box-shadow:inset 0px -4px 0px 0px #f6b70e;
+	}
+	100%{
+		-webkit-box-shadow:inset 0px 0px 0px 0px rgba(0,0,0,0);
+		-moz-box-shadow:inset 0px 0px 0px 0px rgba(0,0,0,0);
+		box-shadow:inset 0px 0px 0px 0px rgba(0,0,0,0);
+	}
+}
+@keyframes inbox-notification{
+	0%{
+		-webkit-box-shadow:inset 0px 0px 0px 0px rgba(0,0,0,0);
+		-moz-box-shadow:inset 0px 0px 0px 0px rgba(0,0,0,0);
+		box-shadow:inset 0px 0px 0px 0px rgba(0,0,0,0);
+	}
+	50%{
+		-webkit-box-shadow:inset 0px -4px 0px 0px #f6b70e;
+		-moz-box-shadow:inset 0px -4px 0px 0px #f6b70e;
+		box-shadow:inset 0px -4px 0px 0px #f6b70e;
+	}
+	100%{
+		-webkit-box-shadow:inset 0px 0px 0px 0px rgba(0,0,0,0);
+		-moz-box-shadow:inset 0px 0px 0px 0px rgba(0,0,0,0);
+		box-shadow:inset 0px 0px 0px 0px rgba(0,0,0,0);
+	}
+}
+
+@keyframes inbox-notification-mobile{
+	0%{
+		-webkit-box-shadow:inset 4px 0px 0px 0px rgba(0,0,0,0);
+		-moz-box-shadow:inset 4px 0px 0px 0px rgba(0,0,0,0);
+		box-shadow:inset 4px 0px 0px 0px rgba(0,0,0,0);
+	}
+	50%{
+		-webkit-box-shadow:inset 4px 0px 0px 0px #f6b70e;
+		-moz-box-shadow:inset 4px 0px 0px 0px #f6b70e;
+		box-shadow:inset 4px 0px 0px 0px #f6b70e;
+	}
+	100%{
+		-webkit-box-shadow:inset 4px 0px 0px 0px rgba(0,0,0,0);
+		-moz-box-shadow:inset 4px 0px 0px 0px rgba(0,0,0,0);
+		box-shadow:inset 4px 0px 0px 0px rgba(0,0,0,0);
+	}
+}
+
+@-webkit-keyframes inbox-notification-font{
+	0%{
+		color:#7d808d;
+	}
+	50%{
+		color:#f6b70e;
+	}
+	100%{
+		color:#7d808d;
+	}
+}
+@-moz-keyframes inbox-notification-font{
+	0%{
+		color:#7d808d;
+	}
+	50%{
+		color:#f6b70e;
+	}
+	100%{
+		color:#7d808d;
+	}
+}
+@keyframes inbox-notification-font{
+	0%{
+		color:#7d808d;
+	}
+	50%{
+		color:#f6b70e;
+	}
+	100%{
+		color:#7d808d;
+	}
+}

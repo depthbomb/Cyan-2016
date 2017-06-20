@@ -1,0 +1,111 @@
+.modal{
+	z-index:10050
+}
+.modal .modal-content{
+	background:#202126;
+	box-shadow:0 2px 5px rgba(0,0,0,0.1);
+	border-radius:4px
+}
+.modal .modal-content .modal-header{
+	background:#1b1c20;
+	border:0;
+}
+.modal .modal-content .modal-header .close{
+	text-shadow:none;
+	font-size:32px;
+	line-height:20px;
+	color:#9fa1a9
+}
+.modal .modal-content .modal-body .modal-loading{
+	text-align:center;
+	padding:80px 20px;
+	color:#6b6e77
+}
+.modal .modal-content .modal-body .modal-error{
+	text-align:center;
+	padding:80px 20px;
+	color:#ba371d
+}
+.modal .modal-content .modal-body .modal-white{
+	color:#fff
+}
+.modal .modal-content .modal-body .modal-red{
+	color:#ba371d
+}
+.modal .modal-content .modal-body .modal-green{
+	color:#68a716
+}
+.modal .modal-content .modal-body .modal-subtitle,
+.modal .modal-content .modal-body .modal-footer,
+.modal .modal-content .modal-body .modal-input{
+	border-bottom:1px solid #25262c
+}
+.modal .modal-content .modal-body .modal-subtitle:last-child,
+.modal .modal-content .modal-body .modal-footer:last-child,
+.modal .modal-content .modal-body .modal-input:last-child{
+	border-bottom:0
+}
+.modal .modal-content .modal-body .modal-title{
+	background:#1b1c20;
+	border-bottom:1px solid #25262c;
+	padding:15px;
+	font-weight:600;
+	font-size:16px
+}
+.modal .modal-content .modal-footer{
+	background:#1b1c20;
+	border-top:0
+}
+.modal .modal-content .modal-body .modal-footer .btn{
+	width:120px
+}
+.modal .modal-content .modal-body .modal-subtitle{
+	background:#1e1f23;
+	padding:5px 15px;
+	font-weight:600
+}
+.modal .modal-content .modal-body .modal-subtitle.modal-required:after{
+	content:'*';
+	color:#ba371d;
+	font-size:14px;
+	vertical-align:top;
+	margin:0 0 0 4px
+}
+.modal .modal-content .modal-body .bootstrap-select{
+	width:100% !important
+}
+.modal .modal-content .modal-body .bootstrap-select .btn{
+	border-radius:0
+}
+.modal .modal-content .modal-body textarea{
+	display:block;
+	width:100%;
+	height:140px;
+	border-radius:0
+}
+.modal .modal-table .modal-table-data{
+	border-bottom:1px solid #34353a
+}
+.modal .modal-table .modal-table-data .row{
+	border-bottom:1px solid #292b31
+}
+.modal .modal-table .modal-table-data .row>div{
+	padding:10px 15px
+}
+.modal .modal-table .modal-table-data .row:first-child{
+	background:#1e1f23
+}
+.modal .modal-table .modal-table-data .row:last-child{
+	border-bottom:0
+}
+.modal .modal-table .modal-table-data .modal-table-empty{
+	padding:60px 15px;
+	text-align:center;
+	color:#848791
+}
+.modal .modal-table .modal-table-data:last-child{
+	border-bottom:0
+}
+.modal-backdrop{
+	z-index:10040
+}

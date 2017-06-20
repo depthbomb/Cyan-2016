@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /assets/
+Disallow: /assets/css/
+Disallow: /assets/js/
+Disallow: /assets/img/
+Disallow: /api/
+Disallow: /api/server-info/
