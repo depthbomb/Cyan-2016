@@ -37,7 +37,7 @@
 
 				if($tickets_db->query($create_query))
 				{
-					cyan_mailer("yoshida.komati@gmail.com", "A user has submitted a ticket.", "You can view their ticket at: http://cyan.tf/ticket/view/$ticket_hash");
+					cyan_mailer("EMAIL", "A user has submitted a ticket.", "You can view their ticket at: http://cyan.tf/ticket/view/$ticket_hash");
 					send_notif($ticket_steamid,"Your ticket was successfully submitted!","<p>Hello, <b>".get_user_meta($ticket_steamid,'personaname')."</b>! Your ticket was successfully created and an admin has been notified of it.</p><p>You can view your ticket <a href=\"http://cyan.tf/ticket/view/$ticket_hash\">here.</a></p>",0);
 					header("Location: /ticket/view/$ticket_hash/submitted");
 				}
